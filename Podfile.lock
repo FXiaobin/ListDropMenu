@@ -1,0 +1,18 @@
+PODS:
+  - Masonry (1.0.2)
+  - UIButton-SSEdgeInsets (0.1.7)
+  - UICollectionViewLeftAlignedLayout (1.0.2)
+
+DEPENDENCIES:
+  - Masonry
+  - UIButton-SSEdgeInsets
+  - UICollectionViewLeftAlignedLayout
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  UIButton-SSEdgeInsets: 64a600adc670d98e140ddcde1d0e64d7b952502c
+  UICollectionViewLeftAlignedLayout: 830bf6fa5bab9f9b464f62e3384f9d2e00b3c0f6
+
+PODFILE CHECKSUM: 41f712087c2944905495f893766f5b1125a0c6f1
+
+COCOAPODS: 1.2.0
