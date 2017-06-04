@@ -22,12 +22,15 @@
         if (i == 0){
             SigleCollectionItemView *listView = [[SigleCollectionItemView alloc] initWithFrame:CGRectMake(0, 108, kWidth, 0)];
             listView.tagsArr = @[@"全部",@"数码办公",@"家具用品",@"母婴用品",@"健康养生",@"户外休闲",@"尊享区"];
+            //设置默认选中的item
+            //listView.defaultCateName = self.cateModel.catName;
             [arr addObject:listView];
             
         }else if (i == 1){
             SigleTableListView *listView = [[SigleTableListView alloc] initWithFrame:CGRectMake(0, 108, kWidth, 0)];
             listView.dataArr = @[@"最新发布",@"价格从高到低",@"价格从低到高",@"出价次数由高到低"];
-            [arr addObject:listView];
+            //也可以设置默认选中某一个 需要将selectedRow属性暴露出来即可
+            [arr addObject:listView];
             
         }else if (i == 2) {
             SigleTableListView *listView = [[SigleTableListView alloc] initWithFrame:CGRectMake(0, 108, kWidth, 0)];
